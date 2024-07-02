@@ -1,0 +1,38 @@
+# Client configuration
+client:
+  # Specifies the value of the model attribute
+  model: "EAM:J:A:A"
+  # Specifies the value of the srcid attribute
+  srcid: "1000"
+  # Specifies the value of the User-Agent header. If this field is blank, a default value will be used instead
+  useragent: "EAMUSE.Test/1.0"
+   # Tell the client to not append the query string (?model=EAM:J:A:A&f=MODULE.METHOD) to the end of service URLS
+  disable_query: false
+
+# Service configurations
+services:
+  # Name of the service
+  services:            
+    # Specfies the URL of the server    
+    url: "http://services/"
+    # Optionally overrides the Host header
+    host: "eamuse.konami.fun"
+    # Enable obfuscation. Most services require this be enabled
+    obfuscate: true
+    # Supported values: "lz77", "none", "disable". By default, this is set to "disable"
+    compress: "lz77"
+    # Supported values: "binary", "xml". By default, this is set to "binary"
+    format: "binary"
+    # Supports standard AVS2 property encodings. This is generally set to "UTF-8" or "SHIFT-JIS"
+    encoding: "UTF-8"
+
+  package:
+    url: "http://package/package/service"
+    compress: "lz77" 
+    encoding: "SHIFT-JIS" 
+
+  facility:
+    url: "http://facility/facility/service"
+    obfuscate: true
+    compress: "lz77" 
+    encoding: "SHIFT-JIS" 

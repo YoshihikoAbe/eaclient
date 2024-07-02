@@ -1,0 +1,8 @@
+github.com/YoshihikoAbe/avslz v0.0.1 h1:62GYESTsRJtF28+NhNAeS4bu0GJvY2iZvctQyrS+EpA=
+github.com/YoshihikoAbe/avslz v0.0.1/go.mod h1:ih2t09YcyB+bSQ3awxyG+fF/fwaBh/zlLzpUuwsU8x4=
+github.com/YoshihikoAbe/avsproperty v0.0.1 h1:EhaxmJoVHY0iXmOOSYC2g8PdlMJ60UOF9DpTqE4g9xo=
+github.com/YoshihikoAbe/avsproperty v0.0.1/go.mod h1:QnubObUKj734sRrFtaFzp9Zrk3LKLJHp3+iqIMhqdXM=
+golang.org/x/text v0.16.0 h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=
+golang.org/x/text v0.16.0/go.mod h1:GhwF1Be+LQoKShO3cGOHzqOgRrGaYc9AvblQOmPVHnI=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
